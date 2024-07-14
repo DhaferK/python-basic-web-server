@@ -4,7 +4,7 @@ import json
 
 # Server host and port
 HOST = '127.0.0.1'
-PORT = 8081
+PORT = 8080
 
 def send_request(method, path, headers):
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
