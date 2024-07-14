@@ -244,7 +244,7 @@ class WebServer:
 
 
 def main():
-    server = WebServer('127.0.0.1', 8081)
+    server = WebServer('127.0.0.1', 8080)
     asyncio.run(server.start())
 
 if __name__ == "__main__":
