@@ -5,7 +5,7 @@ import time
 from webserver import WebServer, parse_http_request
 
 HOST = '127.0.0.1'
-PORT = 8081  # Changed port to avoid conflicts
+PORT = 8080  # Changed port to avoid conflicts
 
 class TestWebServer(unittest.TestCase):
     @classmethod
